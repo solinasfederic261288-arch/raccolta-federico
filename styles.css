@@ -228,3 +228,7 @@ p { margin: 0 0 1rem; }
 :lang(ar) body, :lang(ar) h1, :lang(ar) h2 { font-family: "Noto Sans Arabic", "Segoe UI", Tahoma, system-ui, sans-serif; }
 :lang(he) h1, :lang(he) h2 { font-family: "Noto Sans Hebrew", "Segoe UI", Arial, system-ui, sans-serif; }
 :lang(ar) h1, :lang(he) h1 { letter-spacing: 0; }
+
+.lingue{display:flex;justify-content:center;gap:.5rem;padding:.6rem;font-size:.85rem}
+.lingue a{padding:.2rem .5rem;border-radius:4px;text-decoration:none;color:inherit;border:1px solid currentColor;opacity:.75}
+.lingue a[aria-current]{opacity:1;font-weight:700}
